@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #d5e1df;
+}
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color:  #757a79;
+}
+
+header h4 {
+
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 3px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 80px;
+}
+
+.cards .card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 330px;
+    height: 580px; 
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(0.5deg);
+    border: solid 2px #757a79;
+    font-family: 'Rajdhani', sans-serif;
+}
+.card-item img {
+    margin-top: 15px;
+    font-size: 20px;
+    width: 290px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+h3{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card-item .info-border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 290px;
+    height: 230px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.card-item .btn1 {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #757a79;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+}
+
+.card-item .btn1:hover {
+    background-color: #bbe9db; 
+    color: white;
+}
+
+.card-item .btn2 {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #d5e1df;
+    color: #757a79;
+    cursor: pointer;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    margin-bottom: 10px;
+}
+
+.card-item .btn2:hover {
+    background-color: cadetblue;
+    color: white;
+}
